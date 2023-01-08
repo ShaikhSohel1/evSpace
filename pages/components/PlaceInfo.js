@@ -27,7 +27,7 @@ import DatePicker from "react-datepicker";
 
 
 const stripePromise = loadStripe(
-  "pk_test_51M6AOGSJE57kOkzkTitqRvcE4PuYsiPzXXQDHPrSe8zogftEmyH5maQ8oEiO7nn4p6X5RwB79nv6vgYyIjdzdJM200a26IY5VC"
+  "STRIPE_PUBLIC_KEY"
 );
 
 

@@ -26,7 +26,7 @@ import { useSession } from "next-auth/react";
 import { Elements } from "@stripe/react-stripe-js";
 
 const stripePromise = loadStripe(
-  "pk_test_51M6AOGSJE57kOkzkTitqRvcE4PuYsiPzXXQDHPrSe8zogftEmyH5maQ8oEiO7nn4p6X5RwB79nv6vgYyIjdzdJM200a26IY5VC"
+  "STRIPE_PUBLIC_KEY"
 );
 
 export default function PlaceInf({ id, name, des, todos }) {
